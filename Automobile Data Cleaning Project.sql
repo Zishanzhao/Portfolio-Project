@@ -168,7 +168,7 @@ FROM `project-1-366402.Cars.Automobile_data`;
 
 ------------------------------------------------------------------
 
-/* Identify and Delete Incorrect Data [compression-ration is continuous from 7 to 23] */
+/* Identify & Delete Incorrect Data [compression-ration is continuous from 7 to 23] */
 
 SELECT
   min(compression_ratio) AS min_compression_ratio,
